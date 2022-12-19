@@ -7,7 +7,8 @@ import Contact from '../Contact/Contact';
 const SkillSet = () => {
 
     return(
-<div id='skill' className={styles.sekillContainer}>     
+<div id='skill' className={styles.sekillContainer}> 
+    <div className={styles.boxSkill}>
     <h2 className={styles.titleSkill}>S K I L L S E T</h2>
     <hr className={styles.linea} />
     <div  className={styles.skill}>       
@@ -24,7 +25,9 @@ const SkillSet = () => {
      <div>    
     <Contact/>
     </div>
-</div>   
+  </div> 
+</div> 
+
     )
 };
 

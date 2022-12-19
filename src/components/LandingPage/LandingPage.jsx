@@ -10,8 +10,10 @@
            <video className={styles.video} src={video} autoPlay loop muted></video>
            <div className={styles.content}>
            <img src={image} className={styles.img} alt="Not found"/>
-            <h1>Holas soy Ariel Alegre y soy Full Stack Developer</h1>
-      <Link to='/home'> <button>ingresar</button></Link> 
+            <h1 className={styles.title}>Hola soy Ariel Alegre y soy Full Stack Developer</h1>
+      <Link to='/home'> 
+      <button className={styles.btn}>ingresar</button>
+      </Link> 
         </div>
       </div>
     )
