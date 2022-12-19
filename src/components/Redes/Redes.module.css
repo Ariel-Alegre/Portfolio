@@ -1,0 +1,19 @@
+.redesContainer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icons {
+        background-color:white;
+        color: #00bdd6;
+        height: 30px;
+        width: auto;
+        border: none;
+        border-radius: 30px;
+}
+
+.icons:hover {
+    background-color: #00bdd6;
+    color: white;
+}

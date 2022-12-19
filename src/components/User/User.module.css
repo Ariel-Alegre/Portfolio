@@ -1,0 +1,43 @@
+.userContainer {
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+.img {
+    height: 180px;
+    width: 180px;
+    margin-top: 20px;
+}
+
+.video {
+    height: 30rem;
+    width: 100%;
+    opacity: 0.4;
+    object-fit: cover;
+}
+
+.boxUser {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 100px;
+}
+
+.linea{
+    width: 50rem;
+    color: #00bdd6;
+    border: 0.8px solid;
+}

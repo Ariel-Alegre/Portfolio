@@ -1,0 +1,67 @@
+.navbar{
+    background-color:#00bdd6;
+    box-shadow: 0px 0px 10px black;
+    margin-top: -6px;
+}
+
+.imgContainer {
+   display: flex;
+   margin-left: 30px;
+   gap: 20px;
+   justify-content: center;
+}
+
+.img {
+    height: 50px;
+    width: auto;
+}
+
+.student{
+    font-size: 12px;
+}
+
+.info {
+    
+    background: aqua;
+}
+
+.btn {
+    border: none;
+}
+
+.title{
+    color: white; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+ }
+
+ .icons {
+background-color:white;
+ color: #00bdd6;;
+ height: 30px;
+ width: auto;
+ border: none;
+ border-radius: 30px;
+}
+
+.icons:hover {
+    background-color: #00bdd6;
+    color: white;
+}
+
+
+.direction{
+    display: flex;
+  margin-right: 30px;
+  gap: 10px;
+}
+
+.text {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+.text:hover {
+    color: black;
+}
