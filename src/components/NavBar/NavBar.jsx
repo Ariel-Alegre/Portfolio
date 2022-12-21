@@ -2,6 +2,8 @@ import styles from './NavBar.module.css';
 import Redes from '../Redes/Redes';
 import { SiWhatsapp } from 'react-icons/si'; 
 import { AiOutlineMail } from 'react-icons/ai'; 
+import { Link } from 'react-router-dom'; 
+
 
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
@@ -19,6 +21,11 @@ const NavBar = () => {
       <AiOutlineMail className={styles.icons}/>
            </a>
            </div> 
+           <div>
+            <Link to='/developer'>
+            About me
+            </Link>
+           </div>
            <div className={styles.direction}>
             <div>
             <a className={styles.text} href="#portfolio">Portfolio</a>
