@@ -65,3 +65,9 @@ background-color:white;
 .text:hover {
     color: black;
 }
+
+.me {
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

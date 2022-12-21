@@ -22,7 +22,7 @@ const NavBar = () => {
            </a>
            </div> 
            <div>
-            <Link to='/developer'>
+            <Link to='/developer' className={styles.me}>
             About me
             </Link>
            </div>
