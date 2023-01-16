@@ -18,7 +18,7 @@ return(
             <img src={Astro} className={styles.img}  alt="not found" />   
             </a>
             <div className=''>
-            <a href="https://github.com/Ariel-Alegre/Astro-Gamer" target='_blank' rel="noreferrer">
+            <a href="https://github.com/Ariel-Alegre/Astro-Gamers" target='_blank' rel="noreferrer">
                 <BsGithub className={styles.icons}/>
                 </a>
             </div>
