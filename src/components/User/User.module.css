@@ -1,45 +1,44 @@
 .userContainer {
-    background-color: rgb(40, 40, 40);
-    color: white;
-    gap: 40px;
+  background-color: rgb(40, 40, 40);
+  color: white;
+  gap: 40px;
 }
 
 .imgContainer {
-    display: flex;
-    justify-content: center;
-    color: white;
+  display: flex;
+  justify-content: center;
+  color: white;
 }
 
-
 .img {
-    height: 180px;
-    width: 180px;
-    margin-top: 20px;
-    border-radius: 150px;
+  height: 180px;
+  width: 180px;
+  margin-top: 20px;
+  border-radius: 150px;
 }
 
 .video {
-    height: 30rem;
-    width: 100%;
-    opacity: 0.4;
-    object-fit: cover;
+  height: 30rem;
+  width: 100%;
+  opacity: 0.4;
+  object-fit: cover;
 }
 
 .boxUser {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    margin-top: 100px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 100px;
 }
 
-.linea{
-    width: 50rem;
-    color: #00bdd6;
-    border: 0.8px solid;
+.linea {
+  width: 50rem;
+  color: #00bdd6;
+  border: 0.8px solid;
 }

@@ -1,31 +1,28 @@
 .contact {
-   display: grid;
-   justify-content: center;
-  
-
+  display: grid;
+  justify-content: center;
 }
-.title{
-   color: white; 
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   text-align: center;
+.title {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
 }
 .img {
-   background-color:white;
-   color: #00bdd6;;
-   height: 50px;
-   width: auto;
-   border: none;
-   border-radius: 30px;
+  background-color: white;
+  color: #00bdd6;
+  height: 50px;
+  width: auto;
+  border: none;
+  border-radius: 30px;
 }
 
-.imgContainer{
-   display: flex;
-   gap: 40px;
-   justify-content: center;
+.imgContainer {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
 }
-
 
 .img:hover {
-   background-color:#00bdd6;
-   color: white;
+  background-color: #00bdd6;
+  color: white;
 }

@@ -1,65 +1,57 @@
-
 .video {
-    height: 100%;
-    width: 100%;
-    opacity: 0.7 ;
-    object-fit: cover;
-    
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  object-fit: cover;
 }
 
 .imgContainer {
-   position: relative;
-    display: flex;
-    justify-content: center;
-    color: white;
-    margin-top: -40rem;
-
-  
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: -40rem;
 }
 .img {
-    height: 230px;
-    width: 230px;
-    border-radius: 150px;
+  height: 230px;
+  width: 230px;
+  border-radius: 150px;
 }
 
 .present {
-    color: black;
-    text-align: center;
-    margin-top: 10px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .me {
-    display: flex;
-    justify-content: center;
-    color: white;
-   
-    
-} 
+  display: flex;
+  justify-content: center;
+  color: white;
+}
 
 .presentContainer {
-    box-shadow: 0 0 10px black;
-    width: 400px;
-    height: 200px;
-   
+  box-shadow: 0 0 10px black;
+  width: 400px;
+  height: 200px;
 }
 
 .button {
-    display: flex;
-    position: absolute;
-    margin-top: -42rem;
-    background-color: #00bdd6;
-    color: white;
-    font-size: 2rem;
-    border-radius: 10px;
-    border: none;
-    margin-left: -15rem;
+  display: flex;
+  position: absolute;
+  margin-top: -42rem;
+  background-color: #00bdd6;
+  color: white;
+  font-size: 2rem;
+  border-radius: 10px;
+  border: none;
+  margin-left: -15rem;
 }
 
 .button:hover {
-    opacity: 0.6;
-    cursor: pointer;
+  opacity: 0.6;
+  cursor: pointer;
 }
-

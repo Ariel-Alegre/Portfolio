@@ -1,19 +1,13 @@
 .img {
-    height: 100px ;
-    width:100px;
-    margin-left: 37rem;
+  height: 100px;
+  width: 100px;
+  margin-left: 37rem;
 }
 
 .items {
-    display: flex;
+  display: flex;
 }
-
 
 .navbar {
-    text-align: center;
+  text-align: center;
 }
-
-
-
- 
-
