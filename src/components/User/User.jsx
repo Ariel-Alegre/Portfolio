@@ -14,7 +14,7 @@ const User = () => {
         <div align="center" class="card-body">
           <h1 class="card-title">Ariel Alegre</h1>
           <hr className={styles.linea} />
-          <p class="card-text">Full Stack Developer</p>
+          <p class="card-text">Software Developer</p>
         </div>
       </div>
     </div>
