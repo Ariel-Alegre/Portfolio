@@ -1,0 +1,30 @@
+.contact {
+  display: grid;
+  justify-content: center;
+}
+
+.img {
+  background-color: white;
+  color: #00bdd6;
+  height: 50px;
+  width: auto;
+  border: none;
+  border-radius: 30px;
+}
+
+.imgContainer {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.img:hover {
+  background-color: #00bdd6;
+  color: white;
+}
+
+.imgContainer h3 {
+  color: white;
+  position: absolute;
+  margin-right: 200px;
+}

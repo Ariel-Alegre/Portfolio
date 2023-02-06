@@ -19,13 +19,6 @@ const NavBar = () => {
             >
               <SiWhatsapp className={styles.icons} />
             </a>
-            <a
-              href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSPFrLHFjTScGrbDzMBkrnmWcVkNbMjbXgDbbhMbNxCTCRMLlmZfwQNsbFwndhjFwBrwGZMR"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <AiOutlineMail className={styles.icons} />
-            </a>
           </div>
           <div>
             <Link to="/developer" className={styles.me}>
