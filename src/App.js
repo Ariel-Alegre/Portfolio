@@ -14,7 +14,6 @@ function App() {
          <Route exact path = '/' element={<LandingPage/>}/> 
          <Route exact path = '/home' element={<Home/>}/> 
          <Route exact path = '/developer' element={<Me/>}/> 
-         <Route exact path = '/email' element={<MyEmail/>}/> 
        </Routes>
     </BrowserRouter>
   );
