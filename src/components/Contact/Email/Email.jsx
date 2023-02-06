@@ -27,7 +27,7 @@ function MyEmail() {
           rows="3"
           name="Comment"
           ></textarea>
-        <input type="hidden" name="_next" value="http://localhost:3000/home" />
+        <input type="hidden" name="_next" value="https://repositorio-liart.vercel.app/home" />
         <input type="hidden" name="_captcha" value="false" />
       </div>
       <button type="submit">Send</button>
