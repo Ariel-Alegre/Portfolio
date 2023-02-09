@@ -10,7 +10,7 @@ const LandingPage = () => {
       <div className={styles.content}>
         <img src={image} className={styles.img} alt="Not found" />
         <h1 className={styles.title}>
-          Hola soy Ariel Alegre y soy Full Stack Developer
+          Hola me llamo Ariel Alegre y soy Full Stack Developer
         </h1>
         <Link to="/home">
           <button className={styles.btn}>ingresar</button>
