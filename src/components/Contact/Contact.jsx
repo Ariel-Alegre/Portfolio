@@ -1,6 +1,6 @@
 import React from "react";
 import MyEmail from "./Email/Email";
-import Whatsapp from "./Whatsapp/Whatsapp";
+import Data from "./Data/Data";
 import styles from "./Contact.module.css";
 
 const Contact = () => {
@@ -11,7 +11,7 @@ const Contact = () => {
       <MyEmail/>
   <hr className={styles.hr}/>
 
-      <Whatsapp/>
+      <Data/>
     </div>
   );
 };

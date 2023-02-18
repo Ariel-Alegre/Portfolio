@@ -26,6 +26,9 @@ const Projects = () => {
             rel="noreferrer"
           >
             <BsGithub className={styles.icons} />
+            <p>
+            Repositorio
+            </p>
           </a>
         </div>
       </div>
@@ -45,6 +48,9 @@ const Projects = () => {
             rel="noreferrer"
           >
             <BsGithub className={styles.icons} />
+            <p>
+            Repositorio
+            </p>
           </a>
         </div>
       </div>
@@ -60,6 +66,9 @@ const Projects = () => {
             rel="noreferrer"
           >
             <BsGithub className={styles.icons} />
+            <p>
+            Repositorio
+            </p>
           </a>
         </div>
       </div>
@@ -80,6 +89,9 @@ const Projects = () => {
             rel="noreferrer"
           >
             <BsGithub className={styles.icons} />
+            <p>
+            Repositorio
+            </p>
           </a>
         </div>
       </div>

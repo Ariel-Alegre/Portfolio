@@ -31,18 +31,14 @@
 
 .icons {
   margin-top: 20px;
-  background-color: white;
-  color: #00bdd6;
+  color: black;
   height: 40px;
   width: auto;
-  border: none;
-  border-radius: 30px;
   margin-bottom: 10px;
 }
 
 .icons:hover {
-  background-color: #00bdd6;
-  color: white;
+  opacity: 0.5;
 }
 
 .img:hover {
@@ -56,4 +52,14 @@
   width: 50rem;
   color: #00bdd6;
   border: 0.8px solid;
+}
+
+.projectContainer a {
+  text-decoration: none;
+  color: black;
+}
+
+.projectContainer a:hover {
+  opacity: 0.5;
+  color: black;
 }

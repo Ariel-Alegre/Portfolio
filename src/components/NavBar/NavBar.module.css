@@ -35,19 +35,14 @@
 }
 
 .icons {
-  background-color: white;
-  color: #00bdd6;
+  color: black;
   height: 30px;
   width: auto;
-  border: none;
-  border-radius: 30px;
 }
 
 .icons:hover {
-  background-color: #00bdd6;
-  color: white;
+  opacity: 0.5;
 }
-
 .direction {
   display: flex;
   margin-right: 30px;
@@ -59,8 +54,6 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-decoration: none;
 }
-
-
 
 .me {
   text-decoration: none;
