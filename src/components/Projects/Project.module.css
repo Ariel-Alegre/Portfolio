@@ -63,3 +63,15 @@
   opacity: 0.5;
   color: black;
 }
+
+@media screen and (max-width: 740px) {
+  .linea {
+    width: 250px;
+    margin-left: 150px;
+  }
+
+  .img {
+    width: 350px;
+    height: auto;
+  }
+}

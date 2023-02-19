@@ -28,3 +28,15 @@
 .boxSkill {
   padding: 2px;
 }
+
+@media screen and (max-width: 740px) {
+  .skill {
+    margin-top: -40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 60px);
+  }
+  .img {
+    width: 50px;
+    height: auto;
+  }
+}
