@@ -55,3 +55,35 @@
   opacity: 0.6;
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 740px) {
+  .video {
+    height: 72em;  
+  }
+  .imgContainer{
+    display: grid;
+  }
+  .img {
+    margin-top: -580px;
+     margin-left: 70px;
+  }
+
+  .present {
+    width: 300px;
+    margin-left: 20px;
+  }
+.presentContainer {
+  margin-top: -480px;
+  width: 340px;
+  margin-left: 4px;
+}
+
+.button {
+  display: grid;
+  margin-left: 10px;
+  margin-top: -35em;
+}
+}
+
+
