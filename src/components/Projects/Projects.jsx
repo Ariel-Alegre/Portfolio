@@ -16,12 +16,12 @@ const Projects = () => {
       </div>
       <div className={styles.projects}>
         <h3 className={styles.title}>Astro Gamer</h3>
-        <a href="https://p-grupal.vercel.app/" target="_blank" rel="noreferrer">
+        <a href="https://astro-gamer.vercel.app/" target="_blank" rel="noreferrer">
           <img src={Astro} className={styles.img} alt="not found" />
         </a>
         <div className="">
           <a
-            href="https://github.com/Ariel-Alegre/Astro-Gamers"
+            href="https://github.com/Ariel-Alegre/Astro-Gamer"
             target="_blank"
             rel="noreferrer"
           >
@@ -56,7 +56,7 @@ const Projects = () => {
       </div>
       <div className={styles.projects}>
         <h3 className={styles.title}>Pokemons</h3>
-        <a href="https://pokemon-chi-pied.vercel.app/home" target="_blank" rel="noreferrer">
+        <a href="https://pokemon-three-gamma.vercel.app/" target="_blank" rel="noreferrer">
           <img src={pokemon} className={styles.img} alt="not found" />
         </a>
         <div className="">
@@ -76,7 +76,7 @@ const Projects = () => {
       <div className={styles.projects}>
         <h3 className={styles.title}>Countries</h3>
         <a
-          href="https://countries-odezfvq49-ariel-alegre.vercel.app/home"
+          href="https://countries-rosy-one.vercel.app/"
           target="_blank"
           rel="noreferrer"
         >
