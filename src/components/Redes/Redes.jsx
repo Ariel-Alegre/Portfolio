@@ -13,7 +13,7 @@ const Redes = () => {
         <FaLinkedinIn className={styles.icons} />
       </a>
       <a
-        href="https://github.com/Ariel-Alegre"
+        href="https://github.com/Ariel-Alegre?tab=repositories"
         target="_blank"
         rel="noreferrer"
       >
