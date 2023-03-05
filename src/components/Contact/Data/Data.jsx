@@ -39,7 +39,7 @@ const Data = () => {
           </a>
     
         </div>
-        <hr className={styles.hr}/>
+        <hr className={styles.linea}/>
         <div className={styles.contactDirect}>
             <p>
               <FcPhoneAndroid />: +541161361408
