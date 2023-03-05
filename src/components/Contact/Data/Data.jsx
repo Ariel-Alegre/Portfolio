@@ -11,7 +11,7 @@ const Data = () => {
     <div id="contact">
         <div className={styles.imgContainer}>
           <a
-            href="https://api.whatsapp.com/send/?phone=%2B5401161361408&text&type=phone_number&app_absent=0"
+            href="https://github.com/Ariel-Alegre?tab=repositories"
             target="_blanck"
             rel="noreferrer"
           >
@@ -20,7 +20,7 @@ const Data = () => {
             </h1>
           </a>
           <a
-            href="https://api.whatsapp.com/send/?phone=%2B5401161361408&text&type=phone_number&app_absent=0"
+            href="https://www.linkedin.com/in/ariel-alegre-84526a186/"
             target="_blanck"
             rel="noreferrer"
           >
