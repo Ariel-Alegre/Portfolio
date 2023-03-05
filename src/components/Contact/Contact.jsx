@@ -12,6 +12,7 @@ const Contact = () => {
   <hr className={styles.linea}/>
 
       <Data/>
+
     </div>
   );
 };
