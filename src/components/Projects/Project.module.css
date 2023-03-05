@@ -65,7 +65,7 @@
   color: black;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 768px) {
   .linea {
     width: 250px;
     margin-left: 81px;
