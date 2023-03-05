@@ -42,3 +42,9 @@
   color: #00bdd6;
   border: 0.8px solid;
 }
+
+@media screen and (max-width: 768px) {
+  .linea {
+    width: 350px;
+  }
+}

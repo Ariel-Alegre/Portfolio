@@ -4,8 +4,19 @@
   text-align: center;
 }
 
-.hr {
+.linea {
   color: black;
   width: 450px;
   margin-left: 420px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .linea {
+   margin-left: -20px;
+    width: 378px;
+    
+  
+
+  }
 }

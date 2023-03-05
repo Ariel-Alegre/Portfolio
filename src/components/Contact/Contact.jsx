@@ -7,9 +7,9 @@ const Contact = () => {
   return (
     <div>
       <h2 className={styles.title}>C O N T A C T</h2>
-  <hr className={styles.hr}/>
+  <hr className={styles.linea}/>
       <MyEmail/>
-  <hr className={styles.hr}/>
+  <hr className={styles.linea}/>
 
       <Data/>
     </div>
