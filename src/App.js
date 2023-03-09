@@ -3,7 +3,7 @@ import {BrowserRouter , Route, Routes} from 'react-router-dom';
 import Home from "./components/Home/Home";
 import  'bootstrap/dist/css/bootstrap.min.css';
 import Me from './components/About/About';
-import MyEmail from './components/Contact/Email/Email';
+
 
 
 

@@ -19,7 +19,7 @@ const Projects = () => {
         <a href="https://astro-gamer.vercel.app/" target="_blank" rel="noreferrer">
           <img src={Astro} className={styles.img} alt="not found" />
         </a>
-        <div className="">
+        <div className={styles.iconsContainer}>
           <a
             href="https://github.com/Ariel-Alegre/Astro-Gamer"
             target="_blank"
@@ -41,7 +41,7 @@ const Projects = () => {
         >
           <img src={image} className={styles.img} alt="not found" />
         </a>
-        <div className="">
+        <div className={styles.iconsContainer}>
           <a
             href="https://github.com/Ariel-Alegre/Videos-Juegos"
             target="_blank"
@@ -59,7 +59,7 @@ const Projects = () => {
         <a href="https://pokemon-three-gamma.vercel.app/" target="_blank" rel="noreferrer">
           <img src={pokemon} className={styles.img} alt="not found" />
         </a>
-        <div className="">
+        <div className={styles.iconsContainer}>
           <a
             href="https://github.com/Ariel-Alegre/Pokemon"
             target="_blank"
@@ -82,7 +82,7 @@ const Projects = () => {
         >
           <img src={country} className={styles.img} alt="not found" />
         </a>
-        <div className="">
+        <div className={styles.iconsContainer}>
           <a
             href="https://github.com/Ariel-Alegre/Countries"
             target="_blank"

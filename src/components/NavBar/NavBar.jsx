@@ -1,51 +1,49 @@
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 import styles from "./NavBar.module.css";
 import Redes from "../Redes/Redes";
-import { SiWhatsapp } from "react-icons/si";
-import { AiOutlineMail } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
 const NavBar = () => {
   return (
-    <div className={styles.navbar}>
-      <nav class="navbar ">
-        <div class="container-fluid">
+    <Navbar collapseOnSelect expand="lg" className={styles.navbar}>
+      <Container>
+        <Navbar.Brand href="#home">
           <div className={styles.imgContainer}>
             <Redes />
-            <a
-              href="https://api.whatsapp.com/send/?phone=%2B5401161361408&text&type=phone_number&app_absent=0"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <SiWhatsapp className={styles.icons} />
-            </a>
           </div>
-          <div>
-            <Link to="/developer" className={styles.me}>
-              About me
-            </Link>
-          </div>
-          <div className={styles.direction}>
-            <div>
-              <a className={styles.text} href="#portfolio">
-                Portfolio
-              </a>
-            </div>
-            <div>
-              <a className={styles.text} href="#skill">
-                Skill Set
-              </a>
-            </div>
-            <div>
-              <a className={styles.text} href="#contact">
-                Contact
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </div>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link></Nav.Link>
+            <Nav.Link>
+              <Link to="/developer" className={styles.me}>
+                About me
+              </Link>
+            </Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link className={styles.text} href="#portfolio">
+              Portfolio
+            </Nav.Link>
+            <Nav.Link className={styles.text} href="#skill">
+              Skill Set
+            </Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link className={styles.text} href="#contact">
+              Contact
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };
 
 export default NavBar;
+
+
