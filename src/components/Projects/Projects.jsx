@@ -2,6 +2,8 @@ import image from "../../image/videosjuegos.png";
 import country from "../../image/Countries.png";
 import Astro from "../../image/Astro-Gamer.png";
 import pokemon from '../../image/Pokemons.png'
+import shop from '../../image/My-shop.png';
+
 import styles from "./Project.module.css";
 import { BsGithub } from "react-icons/bs";
 
@@ -22,6 +24,24 @@ const Projects = () => {
         <div className={styles.iconsContainer}>
           <a
             href="https://github.com/Ariel-Alegre/Astro-Gamer"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <BsGithub className={styles.icons} />
+            <p>
+            Repositorio
+            </p>
+          </a>
+        </div>
+      </div>
+      <div className={styles.projects}>
+        <h3 className={styles.title}>My Shop</h3>
+        <a href="https://my-shop-peach-six.vercel.app/" target="_blank" rel="noreferrer">
+          <img src={shop} className={styles.img} alt="not found" />
+        </a>
+        <div className={styles.iconsContainer}>
+          <a
+            href="https://github.com/Ariel-Alegre/My-shop"
             target="_blank"
             rel="noreferrer"
           >
