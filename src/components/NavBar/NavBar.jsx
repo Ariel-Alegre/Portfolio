@@ -15,12 +15,18 @@ const NavBar = () => {
             <Redes />
           </div>
         </Navbar.Brand>
+        <Nav className="me-auto">
+            <Nav.Link></Nav.Link>
+            <Nav.Link>
+              <Link to="/developer" className={styles.me}>
+                About me
+              </Link>
+            </Nav.Link>
+          </Nav>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Link to="/developer" className={styles.me}>
-            About me
-          </Link>
-          <Nav>
+      
+          <Nav className={styles.hability}>
             <Nav.Link className={styles.text} href="#portfolio">
               Portfolio
             </Nav.Link>
@@ -40,3 +46,5 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
+
