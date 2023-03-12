@@ -52,6 +52,8 @@
   color: black;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-decoration: none;
+  margin-left: 50px;
+  
 }
 
 .me {
@@ -61,5 +63,7 @@
   margin-left: 250px;
   
 }
+
+
 
 

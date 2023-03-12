@@ -17,14 +17,9 @@ const NavBar = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link></Nav.Link>
-            <Nav.Link>
-              <Link to="/developer" className={styles.me}>
-                About me
-              </Link>
-            </Nav.Link>
-          </Nav>
+          <Link to="/developer" className={styles.me}>
+            About me
+          </Link>
           <Nav>
             <Nav.Link className={styles.text} href="#portfolio">
               Portfolio
@@ -45,5 +40,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-
